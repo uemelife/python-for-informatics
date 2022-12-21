@@ -21,3 +21,4 @@ def backwards(word):
         index -= 1
 
 backwards(word)
+
