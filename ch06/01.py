@@ -21,3 +21,12 @@ def backwards(word):
         index -= 1
 
 backwards(word)
+
+# From Tet books suggestion.
+fruit = "BANANA"
+index = -1
+length = len(fruit)
+for char in fruit:
+    char = fruit[index]
+    print(char)
+    index = index - 1
